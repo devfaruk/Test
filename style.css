@@ -1,0 +1,180 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 920px;
+	margin: 0 auto;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+div.header{
+    background-image: url("images/long-beach-california-header.jpg");
+    background-repeat: no-repeat;
+    width: 920px;
+    height: auto;
+    
+    
+}
+
+
+/*  Navigation Menu Style */
+
+.nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+	background-color: #333;
+	
+}
+.nav ul li{
+	float: left;
+	border-right:1px solid #ddd;
+}
+
+.nav ul li:last-child{
+	border-right: none;
+
+}
+
+
+.nav ul li a{
+	    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.nav ul li a:hover{
+	background-color: #111;
+}
+
+/*  Content Header */
+.full-tex{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.full-tex h2{
+	text-align: center;
+}
+
+/* Left Side */
+.left-side{
+	width: 47%;
+    float: left;
+    text-align: justify;
+
+}
+.left-side img{
+	float: left;
+    margin-right: 13px;
+    border: 8px solid #ddd;
+
+}
+ 
+
+/* Right Side */
+.right-side{
+	width: 47%;
+    float: right;
+    text-align: justify;
+
+}
+
+.right-side img{
+	float: left;
+    margin-right: 13px;
+    border: 8px solid #ddd;
+}
+
+/*  Post-Category-Title */
+#title{
+	background-color: #ddd;
+}
+#title h3{
+	    padding: 5px 0 6px 17px;
+	font-size: 20px;
+}
+
+
+/*  Footer Start Here */
+
+.footer{
+	margin-top: 30px;
+	border-top: 1px solid #999;
+}
+.site-footer{
+	border-bottom: 1px solid #000;
+	margin-bottom: 30px;
+}
+
+/*  Footer navigatin menus start here */
+.nav-footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.nav-footer ul li{
+	float: left;
+	margin-bottom: 20px;
+}
+.nav-footer ul li a{
+	padding: 14px 16px;
+	text-decoration: none;
+
+
+
+}
+.tina{
+	broder bottom: 1px solid #999;
+}
+
+
+/*  Footer Style */
+.footer-1{
+	width: 25%;
+	float: left;
+}
+.footer-2{
+	width: 25%;
+	float: left;
+}
+.footer-3{
+	width: 25%;
+	float: left;
+}
+
+.footer-4{
+	width: 22%;
+	float: left;
+}
+.second-footer {
+	margin: 0;
+}
+
+/* Footer 1 */
+.footer-1 h3,
+.footer-2 h3,
+.footer-3 h3,
+.footer-4 h3{
+	background-color: #ddd;
+    color: green;
+    padding: 5px 0 5px 7px;
+    margin-right: 10px;
+   
+}
+
+.nav-footer{
+	border-top: 1px solid #999;
+}
+
+
+
